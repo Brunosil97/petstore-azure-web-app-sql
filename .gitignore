@@ -1,0 +1,81 @@
+# .NET Core
+bin/
+obj/
+out/
+publish/
+*.swp
+*.swo
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# User secrets
+appsettings.local.json
+appsettings.Development.json
+
+# Entity Framework Migrations
+**/Migrations/
+
+# Package files
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Publish profiles
+PublishProfiles/
+
+# Azure
+*.azurePubxml
+*.publishsettings
+
+# Deployment packages
+*.zip
+
+# Node modules (if you add frontend later)
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
