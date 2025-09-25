@@ -12,7 +12,7 @@ The database contains:
 - **2 Cats**: Whiskers (Persian), Luna (Siamese)
 - **1 Named List**: "Family Pets" containing Max, Bella, and Whiskers
 
-## 🔧 API Features
+## API Features
 
 - **Dogs API**: Full CRUD operations with traits (breed, age, size, energy level, etc.)
 - **Cats API**: Full CRUD operations with traits (breed, age, playfulness, indoor status, etc.)
@@ -20,7 +20,7 @@ The database contains:
 - **Relational Structure**: Foreign key relationships between entities
 - **Interactive Documentation**: Test all endpoints via Swagger UI
 
-## 📋 Available Endpoints
+## Available Endpoints
 
 - `GET /api/dogs` - Get all dogs
 - `GET /api/cats` - Get all cats
@@ -29,7 +29,7 @@ The database contains:
 - `GET /api/namedlists/{id}/cats` - Get cats in a specific list
 - Full CRUD operations for all entities
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **.NET 8** - Web API framework
 - **Azure App Service** - Cloud hosting (Free tier)
